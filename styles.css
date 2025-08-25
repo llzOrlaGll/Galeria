@@ -1,9 +1,8 @@
 .Contenerdor{
     display: grid;
     grid-template-rows: auto;
-    grid-template-columns: auto  auto auto auto;
+    grid-template-columns: auto auto auto auto;
     background-color: transparent;
-    align-items: center;
     justify-content: center;
     margin-top: 30px;
 }
@@ -20,8 +19,8 @@
 }
 
 img{
-    width: 80%;
-    height: auto;
+    max-width: 80%;
+    max-height: auto;
     object-fit: cover;
 }
 
